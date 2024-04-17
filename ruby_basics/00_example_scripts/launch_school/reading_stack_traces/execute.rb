@@ -1,5 +1,6 @@
 def execute(&block)
   block.call
+  print "me"
 end
 
 execute do
